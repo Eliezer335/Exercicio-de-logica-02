@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>
+        Crie uma função chamada uneEmpresas(nomeA, nomeB) que recebe dois nomes
+        de empresas e une eles seguindo o modelo:<br>
+        Exemplos:<br><br>
+        ● Se nomeA="Empresa A" e nomeB="Empresa B" => deve retornar "Empresa
+        A & Empresa B S.A."<br><br>
+        ● Se nomeA="Pedrao Burger" e nomeB="Jorge Espetos" => deve retornar
+        "Pedrao Burger & Jorge Espetos S.A."<br><br>
+        Ou seja, coloque um & entre os nomes das empresas e um S.A. no final, separados
+        por espaço em branco<br><br>
+    </h2>
+    
+    <script>
+        function uneEmpresas(nomeA, nomeB){
+            document.write(nomeA + " & " + nomeB + " S.A. <br><br>");
+        }
+
+        uneEmpresas("Capital","Caminhonetes");
+        uneEmpresas("Pedrao Burger","Jorge Espetos");
+
+    </script>
+</body>
+</html>
