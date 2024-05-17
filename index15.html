@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>
+        Crie uma função chamada diferencaEntreMedias(n1, n2) que receba dois
+        números e calcule dois valores diferentes, que chamaremos de media1 e
+        media2.<br> Eles devem ser calculados seguindo as expressões:<br><br>
+        ● media1 = (n1+n2)/2<br>
+        ● media2 = n1+n2/2<br><br>
+        Faça com que a função retorne a diferença entre essas médias (media2 - media1)
+        Você sabe dizer porque os valores dessas variáveis são diferentes?
+    </h2>
+    <script>
+        function diferencaEntreMedias(n1, n2){
+            let media1 = (n1+n2)/2;
+            let media2 = n1+n2/2;
+
+            let subtMedia = media2 - media1;
+
+            document.write("O valor de media 1 é: " + media1 + "<br><br>")
+            document.write("O valor de media 2 é: " + media2 + "<br><br>")
+            document.write("O valor de media 2 menos media 1 é: "+ subtMedia);
+        }
+
+        diferencaEntreMedias(10,15);
+
+        
+    </script>
+    <p>Os valores da media um e media dois sao diferentes pois o media um faz primeiro a soma depois a divisão.</p>
+</body>
+</html>
